@@ -18,7 +18,7 @@
  </nav>
 </header>
 <div id="center">
-<div id="center-set"> - By Santosh Navale
+<div id="center-set"> - By Anjana
 <h1 align='center'>Welcome <?php echo $loggedin_session; ?>,</h1>
 You are now logged in. you can logout by clicking on signout link given below.
 <div id="contentbox">
@@ -48,6 +48,10 @@ while($rows=mysqli_fetch_array($result)){
 </tr>
 <tr id="lg-1">
 <td class="tl-1"><div align="left" id="tb-name">Email id:</div></td>
+<td class="tl-4"><?php echo $rows['address']; ?></td>
+</tr>
+ <tr id="lg-1">
+<td class="tl-1"><div align="left" id="tb-name">DOB:</div></td>
 <td class="tl-4"><?php echo $rows['address']; ?></td>
 </tr>
 </table>

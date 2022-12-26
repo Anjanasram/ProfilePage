@@ -43,7 +43,7 @@ echo ' <div id="reg-head-fail" class="headrg">Registration Failed! <br> Error: '
 <div align="left" id="tb-name">First&nbsp;Name:</div>
 </td>
 <td width="171">
-<input type="text" name="fname" id="tb-box"/>
+<input type="text" name="Fathers name" id="tb-box"/>
 </td>
 </tr>
 <tr>
